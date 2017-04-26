@@ -1,0 +1,49 @@
+html{background-color: gray;}
+ 
+@font-face {
+    font-family: Pacifico;
+    src: url(Pacifico.ttf);
+}
+
+body{margin-left: 3.5px;
+padding: 1.5px
+border: 1px;
+height: 670px;
+width:900px;
+background-color: gray;
+font-family: Pacifico;}
+
+.divUn{margin-left: 10px;
+width: 100px;
+height: 100px;
+border: 2px dotted black;
+border-radius: 150px;
+box-shadow: 90px;
+background-color: white;
+background-image: linear-gradient(0deg,red, orange, yellow, green, blue, indigo, violet);}
+
+.divDeux{margin-left: 5px;
+border: 1px solid black;
+width: 500px;
+height: 450px;
+border-radius: 500px;
+background-image: url("futureCar.jpg");}
+
+h1{font-family: Pacifico;}
+
+p:hover {text-align: center;
+-ms-transform:rotate(-20deg); / IE 9 /
+-moz-transform:rotate(-20deg); / Firefox /
+-webkit-transform:rotate(-20deg); / Safari and Chrome /
+-o-transform:rotate(-20deg); / Opera */
+
+-moz-transform: rotate(720deg);
+}
+
+img{margin-left: 3px;
+   /*border: 0.5px solid*/
+    border-radius:0.5px;
+    padding: 5px;
+    width: 150px;
+    margin : 1px;}
+.imgTrois{width: 330px;}    
